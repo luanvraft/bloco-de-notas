@@ -7,7 +7,7 @@ class BlocoDeNotas:
         self.notas = []
 
     def set_proprietario(self, proprietario):
-        self.proprietario = proprietario
+        return proprietario
 
     def get_proprietario(self):
         return self.proprietario
